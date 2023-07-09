@@ -1,0 +1,63 @@
+# Color definition for Tinkercad Obj File 2015
+
+newmtl green
+Ka 0 0 0
+Kd 0 0.9117647058823529 0.0
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl red
+Ka 0 0 0
+Kd 0.867 0.005 0.003
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl blue
+Ka 0 0 0
+Kd 0.006 0.001 0.903
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl yellow
+Ka 0 0 0
+Kd 1.0 0.964706 0.0
+d 0.0
+illum 0
+
+newmtl orange
+Ka 0 0 0 1
+Kd 0.992157 0.513726 0.0
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl purple
+Ka 0 0 0
+Kd 0.467 0.001 0.603
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl magenta
+Ka 0 0 0
+Kd 0.902 0 0.916
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 12.8
+
+newmtl bondgray
+Ka 0 0 0
+Kd 0.454902 0.454902 0.454902
+Ks 0.0225 0.0225 0.0225
+d 0.0
+illum 0
+Ns 1

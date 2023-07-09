@@ -1,0 +1,37 @@
+Here is the setup for the faces
+
+Atom 1
+...
+Atom 2
+...
+Atom n
+...
+Bonds
+...
+end file
+
+Information you have:
+- Atoms unique numbers
+- numbers of atoms for each atom
+- tuple of colors
+
+
+Things you need to do:
+
+1) Add the color line before the start of Atom 1, 2,..,n faces
+2) Assign each of the atoms a color--probably based on index of the unique numbers
+
+
+How to achieve 2):
+- say you are painting atom n 
+- color = color-list[unique-nums.index(atoms[n].number) % len(color-list)]
+
+how to achieve 1):
+- set face_to_edit = (start of faces)
+- Go through the list of atoms:
+- For each atom:
+	pick color based on current atom.number (see (2))
+	modify line at face_to_edit with color
+	face_to_edit += number of faces for current atom (based on atom.centers probably)
+
+	

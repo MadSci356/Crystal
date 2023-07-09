@@ -1,0 +1,46 @@
+What needs to be done for processing xyz file?
+
+Direction: Ought to integrate into the Atom, Lattice classes as much as possible, meaning don't have it be a seperate thing. Adding mtls will not be done easily if this process is seperately done.
+
+File format:
+
+>[number of atoms (call it N)]
+>[Name] file
+>[atoma] x y z # #
+>[atomb] x y z # #
+>...
+>[atomn] x y z # #
+>[atoma] x y z # #
+>[atomb] x y z # #
+>...
+>[atomn] x y z # #
+>...
+>[atomN] x y z # #
+
+
+Things to accomplish:
+1) Make n atom objects and add the centers for each (see if you can avoid going through the list n times
+2) Add them to the crystal without adding any basis or crystal vectors
+3) produce the mesh without the bonds
+5) Have those atoms be displayed at the points specified and have mtls for each atom time
+
+
+How to accomplish each of the above:
+1) check_name(atoms, name):
+      for atom in atoms:
+          if atom.name == name:
+             return atom
+      return Atom(name, R, id based on symbol, formFile=True) #add atom
+atoms = []
+for line in lines[2:N]:
+   line_data = line.split()
+   center = numpy.array([line_data[i] for num in line_data[1:4]])
+   name = line_data[0]
+   atom = check_name(atoms, name)
+   atom.centers.append(center)
+2) we have a list of atom with their centers and unique numbers and names
+   crystal_name = lines[1].split()[0]
+   lattice = Lattice(crystal_name, atoms, fromFile=True)
+3) lattice_maker = LatticeIO(lattice, "")
+4) lattice_maker.make_obj_file(filename, fromFile=True)
+5) above line takes care of goal #5
