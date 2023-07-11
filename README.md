@@ -1,5 +1,5 @@
 # crystal
-Algorithms for creating 3D crystal models for use with Captive
+Python Algorithms for creating 3D crystal models and lattice structures for use with Captive.
 
 How to install on a Unix system:
 I will be making it into a library for now this is how to install it.
