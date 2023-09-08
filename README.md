@@ -12,6 +12,12 @@ I will be making it into a library for now this is how to install it.
 ##### New note: You won't have to add the .mtl manually, I have automated this feature.
 
 
+Demo: 
+
+https://github.com/MadSci356/Crystal/assets/5410205/2962ca48-854f-4a17-a575-d3bcf5c91bc4
+
+
+
 ![FCC Lattice](https://github.com/MadSci356/Crystal/assets/5410205/a64eacf1-d675-43f7-9b18-1ab962a3f5ea)
 
 ![Cubic Bonds](https://github.com/MadSci356/Crystal/assets/5410205/693cab2d-ec65-4cca-b0f2-350ac2c8cb90)
