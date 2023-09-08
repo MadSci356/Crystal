@@ -12,7 +12,7 @@ I will be making it into a library for now this is how to install it.
 ##### New note: You won't have to add the .mtl manually, I have automated this feature.
 
 
-Demo: 
+## Demo: 
 
 https://github.com/MadSci356/Crystal/assets/5410205/2962ca48-854f-4a17-a575-d3bcf5c91bc4
 
