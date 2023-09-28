@@ -1,6 +1,9 @@
 # crystal
 Created while working as an undergrad researcher for Kumah Lab at NC State University (2017-2018)
 Python Algorithms for creating 3D crystal models and lattice structures for use with Captive.
+
+## This repository is archived. Newer version under development.
+
 How to install on a Unix system:
 I will be making it into a library for now this is how to install it.
 
